@@ -1,0 +1,356 @@
+
+*
+{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    
+}
+header, section, footer
+{
+    padding:0;
+    margin:0;
+}
+
+/*Utilities*/
+.logo
+{
+    display:block;
+    width: 190px;
+    
+}
+.logo-2
+{
+    display:block;
+    width: 300px;
+    
+}
+a
+{
+    text-decoration: none;
+    color:rgb(155, 11, 13);
+    
+}
+h1
+{
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+span
+{
+    color:rgb(155, 11, 13);
+}
+a:hover
+{
+    color:rgb(16, 67, 129);
+}
+.outfooter
+{
+    padding:1rem;
+    text-align: center;
+    font-size: 18px;
+}
+/*End utilities*/
+nav h1 
+{
+    align-self: flex-end;
+    margin-bottom: 5px;
+}
+nav
+{
+    background: rgb(212, 213, 215);
+    
+   
+}
+body
+{
+    font-family: 'Satisfy', cursive;
+    line-height: 1.4;
+    margin: 0;
+    padding:0;
+}
+header 
+{
+    position: sticky;
+    top:0;
+    z-index: 1;
+}
+nav
+{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+nav ul
+{
+    display:flex;
+    
+}
+
+nav ul li 
+{
+    list-style-type: none;
+    padding:10px;
+    text-transform: uppercase;
+}
+.showcase
+{
+    background-image:url("/cut.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:80vh;
+    position: relative;
+    
+}
+.showcase-content
+{
+    text-align: center;
+    position: absolute;
+    top:50px;
+    width: 100%;
+    
+}
+.showcase-content h1 
+{
+    color:rgb(155, 11, 13);
+    font-size: 5rem;
+    padding:1rem;
+}
+.showcase-content p 
+{
+    font-size: 1.7rem;
+    color:rgb(155, 11, 13);
+}
+.btn 
+{
+    padding:.75rem;
+    margin-top:3rem;
+    border:none;
+    border-radius: 5px;
+    background-color: rgb(155, 11, 13);
+    color:white;
+    cursor: pointer;
+    width: 10%;
+}
+/*Middle section*/
+.slide 
+{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap:.25rem;
+}
+.slide
+{
+     margin: 1rem .85rem;
+}
+   
+
+.slide img 
+{
+    width: 70%;
+    border-radius: 50%;
+}
+
+.title-middle
+{
+    text-align: center;
+    margin-top: 1rem;
+    padding:1rem;
+}
+/*footer*/
+footer
+{
+    background-color: rgb(212, 213, 215);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    
+   
+
+}
+footer p
+{
+    padding:10px;
+}
+/*social media*/
+
+.fa-instagram {
+ 
+  text-align: center;
+  border-radius: 40px;
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  cursor: pointer;
+}
+.fa-facebook
+{
+  border-radius: 40px;
+  background-color: #3b5999;
+  box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.39);
+  cursor: pointer;
+  color:white;
+}
+.fa-google
+{
+    background: #dd4b39;
+    border-radius: 40px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.178);
+    cursor: pointer;
+}
+.fab
+{
+    padding:10px;
+    
+}
+.site-links ul 
+{
+   list-style-type: none;
+}
+.site-links ul li
+{
+    padding:2px;
+}
+/*About us*/
+h2
+{
+    text-align: center;
+    margin-top: 20px;
+}
+main 
+{
+   display:flex;
+   justify-content: space-evenly;
+   align-items: center;
+   
+    
+}
+main .hours
+{
+    display: flex;
+   
+}
+
+.logo-12
+{
+    display: block;
+    width: 100%;
+    
+}
+
+.hours div 
+{
+    padding:20px;
+    text-align: center;
+    background: rgb(212, 213, 215); 
+    border-radius:50%;
+    margin-left: 3px;
+
+}
+.hours h3 
+{
+    margin-bottom:5px;
+}
+/* Contact Us*/
+.form
+{
+    padding:50px;
+    margin:50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 300;
+}
+.form-group, label
+{
+    display:block;
+    text-align: center;
+
+}
+.form-group input
+{
+    padding:10px;
+    border-radius: 5px;
+}
+/*Pricing*/
+.list
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url("/cut5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
+.list ul 
+{
+    list-style-type:none;
+    margin: 60px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.list ul li 
+{
+    color: #fff;
+    
+}
+
+/*Gallery*/
+#container
+{
+    width:1000px;
+    margin: 40px auto;
+}
+#container
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:1rem;
+    
+}
+#container img
+{
+    display:block;
+    width: 100%;
+
+}
+/*Testimonial*/
+#testimonial
+{
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap:1rem;
+    margin: 4rem 4rem;
+}
+.card 
+{
+    border: solid 1px rgb(155, 11, 13);
+    border-radius: 5px;
+    text-align: center;
+}
+.card h3, p
+{
+    padding:10px;
+}
+.fas 
+{
+    padding: 10px;
+    margin: 5px;
+    color: rgb(16, 67, 129);
+    font-size: 40px;
+}
+/*End*/ 
+.test 
+{
+   background-image: url("/b1.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 50vh;
+}
+
+
+
